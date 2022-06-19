@@ -1,5 +1,5 @@
-# Machine-Learn
-Primeiros algoritmos de Machine learn dos meus estudos na area 
+# Machine-Learn ⚙
+Algoritmos de Machine learn dos meus estudos e aprimoramentos
 
 # Modelos de inteligencia artificial
 
