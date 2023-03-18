@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 
 arquivo = pd.read_csv(
-    'C:/Users/Pcyes_User/OneDrive/Documentos/My projects/ML/Exel/wine_dataset.csv')
+    'C:/Users/tarsi/OneDrive/Documentos/Data Science/Machine-Learn/Data/wine_dataset.csv')
 
 arquivo.head()
 
@@ -20,7 +20,7 @@ modelo = ExtraTreesClassifier()
 # Ia treinada (Pode ser uma lista aqui ou um banco de dados)
 modelo.fit(x_treino, y_treino)
 
-resultado = modelo.predict([x_teste], [y_teste])
+resultado = modelo.predict([x_treino], [y_treino])
 
 # presisao da Ia (score)
 resultado = modelo.score(x_teste, y_teste)
